@@ -7,12 +7,13 @@ Various roles I've written for basic automation of tasks.  I will randomly add t
 - Playbooks can call various roles.
 
 Directory structure will be similar to:
-
+```
 Ansible (Parent Folder)
-  \- Roles (this repo)
-  \- inventory.ini
-  \- RunCentosUpdates.yaml
-  \- SomeOtherPlaybook.yaml
+  - Roles (this repo)
+  - inventory.ini
+  - RunCentosUpdates.yaml
+  - SomeOtherPlaybook.yaml
+```
 
 ### Example
 For a playbook called RunCentosUpdates.yaml:
